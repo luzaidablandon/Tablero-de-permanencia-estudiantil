@@ -1,0 +1,9 @@
+# Entorno completo para reproducir los cuadernos de las Fases 2 y 3 (incluye el dashboard)
+-r requirements.txt
+xgboost==3.4.1
+shap==0.54.1
+imbalanced-learn==0.14.2
+kneed==0.9.0
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyterlab

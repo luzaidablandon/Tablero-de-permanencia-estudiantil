@@ -1,0 +1,8 @@
+# Dependencias EXACTAS para ejecutar el dashboard y reentrenar los modelos (Python 3.13)
+streamlit==1.67.0
+plotly==7.1.0
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0

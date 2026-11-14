@@ -1,0 +1,87 @@
+{
+ "clasificacion": {
+  "Regresi\u00f3n log\u00edstica (Fase 2)": {
+   "validacion": {
+    "accuracy": 0.6987951807228916,
+    "balanced_acc": 0.6779401901605713,
+    "precision_macro": 0.6733280979420885,
+    "recall_macro": 0.6779401901605713,
+    "f1_macro": 0.664816068889008,
+    "auc_macro": 0.8597474653153733,
+    "recall_dropout": 0.6619718309859155
+   },
+   "prueba": {
+    "accuracy": 0.7379518072289156,
+    "balanced_acc": 0.7192826815905796,
+    "precision_macro": 0.7079357988512252,
+    "recall_macro": 0.7192826815905796,
+    "f1_macro": 0.7042074404393244,
+    "auc_macro": 0.8885427226266497,
+    "recall_dropout": 0.7289719626168224
+   }
+  },
+  "RandomForest": {
+   "validacion": {
+    "accuracy": 0.7183734939759037,
+    "balanced_acc": 0.6686375834343014,
+    "precision_macro": 0.6669679721793597,
+    "recall_macro": 0.6686375834343014,
+    "f1_macro": 0.6659727515755038,
+    "auc_macro": 0.8504641395879347,
+    "recall_dropout": 0.6854460093896714
+   },
+   "prueba": {
+    "accuracy": 0.7756024096385542,
+    "balanced_acc": 0.7307805466823486,
+    "precision_macro": 0.7258825287061937,
+    "recall_macro": 0.7307805466823486,
+    "f1_macro": 0.7272692597754465,
+    "auc_macro": 0.8902630929066682,
+    "recall_dropout": 0.780373831775701
+   }
+  },
+  "SVM (RBF)": {
+   "validacion": {
+    "accuracy": 0.697289156626506,
+    "balanced_acc": 0.6681792859685873,
+    "precision_macro": 0.6707507361702838,
+    "recall_macro": 0.6681792859685873,
+    "f1_macro": 0.6580840426991039,
+    "auc_macro": 0.8544596291742824,
+    "recall_dropout": 0.6338028169014085
+   },
+   "prueba": {
+    "accuracy": 0.7394578313253012,
+    "balanced_acc": 0.714499256517131,
+    "precision_macro": 0.7071422007065572,
+    "recall_macro": 0.714499256517131,
+    "f1_macro": 0.7022706653461078,
+    "auc_macro": 0.8873400371681948,
+    "recall_dropout": 0.7102803738317757
+   }
+  }
+ },
+ "regresion": {
+  "validacion": {
+   "r2": 0.8129668046492039,
+   "rmse": 2.1906981188975694,
+   "mae": 1.1839966283746324
+  },
+  "prueba": {
+   "r2": 0.7476532458714862,
+   "rmse": 2.569196750642189,
+   "mae": 1.3827021705754357
+  }
+ },
+ "clustering": {
+  "K": 3,
+  "silueta_entrenamiento": 0.3404031465411176,
+  "silueta_validacion": 0.34437568350755243,
+  "silueta_prueba": 0.3182609080560491,
+  "varianza_explicada_pca": [
+   0.30134884279784824,
+   0.1708765343100101,
+   0.14550749734598284
+  ]
+ }
+}
